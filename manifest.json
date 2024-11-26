@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "version": "1.0.0",
+  "name": "Manaba再提出可否確認Extension",
+  "description": "Manabaで再提出可能か否かを確認する拡張機能",
+  "content_scripts": [
+    {
+      "matches": ["*://*.manaba.jp/*", "*://manaba.tsukuba.ac.jp/*"],
+      "js": ["script.js"]
+    }
+  ]
+}
